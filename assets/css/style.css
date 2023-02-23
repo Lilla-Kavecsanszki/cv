@@ -7,7 +7,7 @@
 body {
     font-family: montserrat, sans-serif;
     font-weight: 300;
-    color: #353838;
+    color: #fefdfa;
     max-width: 100%;
 }
 
@@ -17,7 +17,7 @@ h1,
 h2 {
     font-family: poiret one, cursive;
     letter-spacing: 1px;
-    color: #4d4044;
+    color: #272720;
 }
 
 #logo {
@@ -53,13 +53,13 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid peachpuff;
-    border-top: 1px solid peachpuff;
-    background-color: rgba(224, 159, 142, 0.1);
+    border-bottom: 1px solid #272720;
+    border-top: 1px solid #272720;
+    background-color: rgba(167, 189, 138, 0.3);
 }
 
 .active {
-    background-color: rgba(224, 159, 142, 0.1);
+    background-color: rgba(167, 189, 138, 0.3);
 }
 
 #logo,
@@ -106,11 +106,62 @@ header {
 #hero-image {
     height: 800px;
     width: 100%;
-    background: url('../images/laptop-hero-image.jpg') no-repeat center center;
+    background: url('../images/heroimage.png') no-repeat center center;
     background-size: cover;
 }
 
 #outer-section {
     padding-top: 75px;
     width: 100%;
+}
+
+
+/* Footer */
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #212b16;
+    padding-bottom: 5%;
+}
+
+#copyright>p {
+    font-family: 'Quicksand', sans-serif;
+    height: 20px;
+    font-size: 80%;
+    letter-spacing: 2px;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks {
+    height: 50px;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 3%;
+}
+
+.social-networks a {
+    text-decoration: none;
+}
+
+.social-networks>li {
+    display: inline;
+
+}
+
+.social-networks em {
+    font-size: 200%;
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#linkedin em {
+    color: #fefdfa;
+}
+
+#github em {
+    color: #fefdfa;
 }
