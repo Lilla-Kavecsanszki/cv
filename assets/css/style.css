@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: montserrat, sans-serif;
+    font-weight: 300;
+    color: #353838;
+    max-width: 100%;
+}
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: poiret one, cursive;
+    letter-spacing: 1px;
+    color: #4d4044;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    width: 57%;
+    margin-left: 20px;
+}
+
+/* navigation links */
+#menu {
+    font-size: 20px;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    width: 40%;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+    line-height: 75px;
+    background-color: rgba(255, 255, 255, 0.9)
+}
+
+#menu a {
+    text-decoration: none;
+    color: #4d4044
+}
+
+#menu a:hover {
+    border-bottom: 1px solid peachpuff;
+    border-top: 1px solid peachpuff;
+    background-color: rgba(224, 159, 142, 0.1);
+}
+
+.active {
+    background-color: rgba(224, 159, 142, 0.1);
+}
+
+#logo,
+#menu {
+    line-height: 75px;
+}
+
+/* dropdown menu idea from https://www.w3schools.com/Css/css_dropdowns.asp */
+
+.dropbtn {
+    color: whitesmoke;
+    padding: 1px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    min-width: 135px;
+    z-index: 1;
+    padding: 1px;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 800px;
+    width: 100%;
+    background: url('../images/laptop-hero-image.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#outer-section {
+    padding-top: 75px;
+    width: 100%;
+}
